@@ -1,6 +1,12 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
+
+# Keep that before the rest
+require 'simplecov'
+SimpleCov.start
+
+require 'rails'
 require 'knowledge/rails'
 
 RSpec.configure do |config|
