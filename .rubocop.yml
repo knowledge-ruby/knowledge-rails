@@ -1,0 +1,19 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - lib/knowledge/rails/version.rb
+    - vendor/bundle/*
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/BlockLength:
+  Exclude:
+    - knowledge-rails.gemspec
+    - spec/**/*.rb
