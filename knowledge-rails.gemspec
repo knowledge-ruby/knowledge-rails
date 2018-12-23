@@ -10,6 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Johann Wilfrid-Calixte']
   spec.email         = ['johann.open-source@protonmail.ch']
 
+  spec.licenses      = ['GPL-3.0']
+
   spec.summary       = 'Knowledge x Rails'
   spec.description   = 'Rails utilities to use knowledge'
   spec.homepage      = 'https://github.com/knowledge-ruby/knowledge-rails'
